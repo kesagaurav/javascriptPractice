@@ -46,9 +46,37 @@ const head7=document.getElementById('hello').style.textDecorationColor='red';
 
 const allLis=document.querySelectorAll('li');
 
+const li=document.querySelector('li:last-of-type');
+li.textContent=li.textContent + '(Chnaged)';
+
+const body=document.body;
+
+
 for (const allLis1 of allLis) {
     console.log(allLis1);
     console.dir(allLis1);
 }
 
 
+const ul=document.querySelector('ul');
+ul.children[1];
+console.log(ul);
+
+
+
+//first ele onf chld.
+ul.firstElementChild[0];
+console.log(ul);
+
+//last ele of child.
+ul.lastElementChild;
+console.log(ul);
+
+
+const li2=document.querySelector('li');
+li2.parentNode;
+console.log(li2);
+
+
+ul.previousElementSibling;
+ul.nextElementSibling;

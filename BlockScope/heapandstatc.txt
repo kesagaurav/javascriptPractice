@@ -1,0 +1,21 @@
+the heap is our long term memory.
+it stores data in sytsem memory.
+stack -> end imp for the data and it is used for short term memory.
+the functions them selves has stored in the heap.
+
+function getName(){
+    return prompt("ur nmae is");
+}
+
+function greet(){
+    let name=getName();
+    console.log(name);
+}
+
+greet();
+
+so when the js file start excurting first it will see the function greet and add it to the stack
+afterwadrs it will set getName() function and it will add it to the stack.
+and also js will keep tracks of all functions called so which function called what.
+and prompt() will be puhsed to stack.
+impnote:- whenever when the function returns a value or simply is done with all the steps it will be remobed/pop one by one by the stack.For this js engine will do for us.

@@ -1,0 +1,12 @@
+console.log(userName);
+var userName="gaurav";
+so the above one with var it will not give any errors,but with the let keyword we will give error like is not instantiated navigate_before
+why is this ? 
+bec of hosting.
+what is hosting?
+hosting is an spcial fetaure of js which end means the 
+js engine it looks for browser,when it loads ur script goves over ur entire
+script and it does things like look for functions and automatticaly loads 
+and registers so that u can write functions below
+the code . 
+Invisible incase of var it will pull the reference data and keep it has institaton ex:-var username like this broweser internally do in case of var.But also it is used for let and const as well.

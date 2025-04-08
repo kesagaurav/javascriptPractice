@@ -1,0 +1,10 @@
+.counter{
+    background-color: blue;
+}
+#plus{
+    color: green;
+}
+
+#counter-label{
+    text-align: center;
+}

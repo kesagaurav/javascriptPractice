@@ -1,0 +1,27 @@
+main{
+    text-align: center;
+}
+
+h1{
+    color:green;
+    text-align: center;
+    padding:10px;
+    font-size:50px;
+    font-weight:italic;
+}
+
+#rock, #paper ,#scissors{
+    color:blue;
+    background-color: green;
+
+}
+
+#player-choice{
+    color:green;
+    background-color: greenyellow;
+}
+
+#computer-choice{
+    color:yellow;
+    background-color: pink;
+}

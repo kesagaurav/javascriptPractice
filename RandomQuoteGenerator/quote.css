@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+
+
+#quote{
+    color:green;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    padding:10px;
+    text-align: center;
+}

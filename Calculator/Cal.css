@@ -1,7 +1,27 @@
 .container{
     border:190px soild black;
 }
+#main{
+    text-align: center;
+    border:1px solid green;
+    background-color: yellowgreen;
+    padding:10px;
+    margin:10px;
+}
 
+#clear{
+    background-color: blue;
+    text-align: center;
+    color:brown;
+}
+
+#cal{
+    text-align: center;
+    padding:10px;
+    font-size:25px;
+    font-weight: bold;
+    color: greenyellow;
+}
 #add{
     background-color: green;
 }
@@ -21,7 +41,7 @@
 #a{
     margin: 10px;
     color: green;
-    background-color: blue;
+    background-color: red;
 }
 
 #b{
